@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ccc;
+}
+
+a:focus {
+    outline: none; /*去掉获取焦点后的虚线框*/
+}
+
+.header {
+    height: 44px;
+    background: black;
+}
+
+.title {
+    font-size: 1em;
+    color: white;
+    margin-left: 60px;
+    line-height: 44px;
+    font-weight: bold;
+}
+
+.header form {
+    width: 120px;
+    height: 36px;
+    background: #f5696c;
+    position: absolute;
+    top: 4px;
+    right: 60px;
+}
+
+.header form div {
+    width: 120px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    text-align: center;
+    line-height: 36px;
+}
+
+.header form input {
+    width: 120px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+}
+
+.content {
+    width: 635px;
+    margin: 20px auto;
+}
+
+.list-item {
+    height: 100px;
+    background: white;
+    margin-top: 1px;
+    padding: 10px;
+}
+
+.list-item img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.item-info {
+    float: right;
+    width: 500px;
+    height: 100px;
+}
+
+.pic-title {
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.pic-info {
+    padding-top: 10px;
+}
+
+.upload-time {
+    float: left;
+    font-size: 0.8em;
+    color: lightgray;
+}
+
+.pic-size {
+    float: right;
+    font-size: 0.8em;
+    color: lightgray;
+}
+
+.oprt {
+    clear: both;
+    padding-top: 10px;
+}
+
+.oprt a {
+    text-decoration: none;
+    color: #f5696c;
+    font-size: 0.8em;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
