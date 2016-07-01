@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eee;
+}
+
+a:focus {
+    outline: none; /*去掉获取焦点后的虚线框*/
+}
+
+.header {
+    height: 40px;
+    background: black;
+}
+
+.title {
+    margin-left: 60px;
+    line-height: 40px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    float: left;
+}
+
+.header form {
+    width: 100px;
+    height: 36px;
+    position: relative;
+    top: 2px;
+    right: 60px;
+    float: right;
+}
+
+.header form div {
+    width: 100px;
+    height: 36px;
+    color: white;
+    line-height: 36px;
+    text-align: center;
+    background: #f5696c;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header form input {
+    width: 100px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+}
+
+.content {
+    width: 630px;
+    margin: 30px auto;
+}
+
+.img-item {
+    height: 100px;
+    background: white;
+    margin-top: 1px;
+    padding: 10px;
+}
+
+.img-item img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.img-info {
+    float: right;
+    width: 500px;
+    height: 100px;
+    position: relative;
+}
+
+.img-name {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.img-time-size {
+    margin-top: 8px;
+}
+
+.img-time {
+    float: left;
+    color: #ccc;
+    font-size: 0.8em;
+}
+
+.img-size {
+    float: right;
+    color: #ccc;
+    font-size: 0.8em;
+}
+
+.img-down-rm {
+    position: absolute;
+    bottom: 0;
+}
+
+.img-down-rm form {
+    float: left;
+    margin-right: 30px;
+}
+
+.img-down-rm form a {
+    color: #f5696c;
+    font-size: 0.8em;
+    text-decoration: none;
+}
