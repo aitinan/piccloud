@@ -13,6 +13,11 @@
             return;
         }
 
+        if($_FILES["upload"]["size"] > 1024 * 1024 * 2) {
+            echo "<script>alert('上传的图片大小不能超过2M');</script>";
+            return;
+        }
+
         //对上传的图片重命名,防止重名或出现中文名称而造成乱码等问题
         $img_name = md5(microtime().rand()).$type;
         $img_dir = "../images/".$img_name;
